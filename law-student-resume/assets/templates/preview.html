@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法学生简历 · 5 种模板预览</title>
+<style>
+  :root { --ink:#222; --muted:#666; --line:#e3e3e3; --sky:#2E7CC2; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system,"Microsoft YaHei",Segoe UI,Roboto,sans-serif;
+         background:#f6f7f9; color:var(--ink); }
+  header { background:#fff; border-bottom:1px solid var(--line); padding:24px 32px; }
+  header h1 { margin:0 0 6px; font-size:22px; }
+  header p { margin:0; color:var(--muted); font-size:14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+          gap:20px; padding:24px 32px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px;
+          overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.05); }
+  .card .cap { padding:12px 14px; border-bottom:1px solid var(--line); }
+  .card .cap b { color:var(--sky); }
+  .card .cap span { display:block; color:var(--muted); font-size:12.5px; margin-top:3px; }
+  .card img { display:block; width:100%; height:auto; background:#fff; }
+  footer { color:var(--muted); font-size:12.5px; padding:0 32px 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>法学生求职简历 · 5 种模板预览</h1>
+  <p>同一份示例数据渲染而成，仅版式/配色不同，内容完全一致。选择你喜欢的风格，生成时传 <code>--template</code> 即可。</p>
+</header>
+<div class="grid">
+  <div class="card">
+    <div class="cap"><b>classic</b><span>经典天蓝 · 标题带英文副标题+分隔线 · 红圈所/综合</span></div>
+    <img src="classic.png" alt="classic">
+  </div>
+  <div class="card">
+    <div class="cap"><b>minimal</b><span>极简黑白 · 细灰线 · 央企法务/公检法</span></div>
+    <img src="minimal.png" alt="minimal">
+  </div>
+  <div class="card">
+    <div class="cap"><b>centered</b><span>居中庄重 · 黑灰稳重 · 体制内（配仿宋）</span></div>
+    <img src="centered.png" alt="centered">
+  </div>
+  <div class="card">
+    <div class="cap"><b>modern</b><span>现代天蓝 · 姓名色块+方块标题 · 新锐律所/互联网法务</span></div>
+    <img src="modern.png" alt="modern">
+  </div>
+  <div class="card">
+    <div class="cap"><b>compact</b><span>黑底标题栏+编号 bullet · 信息密度高（offer6 风格）</span></div>
+    <img src="compact.png" alt="compact">
+  </div>
+</div>
+<footer>配色默认以黑/白/灰/天蓝为主，可通过 <code>--accent</code> 或 <code>meta.accent</code> 自定义。所有模板均自动保证单页 A4。</footer>
+</body>
+</html>
